@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from XRF64_XF import Main
+        from XRF64_OP import Main
  
         Main()
  
@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from XRF32_XF import Main
+        from XRF32_OP import Main
  
  
         Main()
